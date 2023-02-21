@@ -1,0 +1,78 @@
+body {
+    min-height: 100svh;
+    background-color: white;
+    color: black;
+}
+
+.profile {
+    padding: 5px;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 0em;
+}
+
+.headGreet, .randSpan, button {
+    padding: 7px;
+    border: 1px solid black;
+    width: 70%;
+    box-sizing: border-box;
+    text-align: start;
+    font-weight: 600;
+}
+
+button {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.creditCard {
+    padding: 0 20px;
+    box-sizing: border-box;
+    width: 300px;
+    border-radius: 5%;
+}
+
+.cardNumber {
+    font-size: 1.7em;
+}
+
+.bankSpan {
+    margin-left: 20px;
+}
+
+.cardSection {
+    display: flex;
+    gap: 20px;
+}
+
+.driverCard {
+    padding: 7px;
+    background-color: #455EB5;
+    color: white;
+    width: 70%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 5px;
+    gap: 20px;
+}
+
+.driverPic {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
